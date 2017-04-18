@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:checked="false"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/drawer_home" />
+
+        <item
+            android:id="@+id/nav_categories"
+            android:checked="false"
+            android:icon="@drawable/ic_view_module_black_24dp"
+            android:title="@string/drawer_categories" />
+
+        <item
+            android:id="@+id/nav_fav"
+            android:checked="false"
+            android:icon="@drawable/ic_favorite_black_24dp"
+            android:title="@string/drawer_favorite" />
+        <item
+            android:id="@+id/nav_help"
+            android:checked="false"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="@string/drawer_help" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:checked="false"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/drawer_logout" />
+    </group>
+</menu>

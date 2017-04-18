@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Graduation</string>
+    <string name="product_name">SNOW</string>
+    <string name="forget_password"><u>Forget Password?</u></string>
+    <string name="login_button_text">Login</string>
+    <string name="no_account_sign_up"><u>You don\'t have account?Sign up</u></string>
+    <string name="username_email_hint">Username or Email</string>
+    <string name="password_hint">Password</string>
+    <string name="image_url">https://pixabay.com/p-967820/?no_redirect</string>
+    <string name="details_description_title">Description</string>
+    <string name="details_reviews_default">(0) Reviews</string>
+    <string name="product_details_price_title">Price:</string>
+    <string name="drawer_home">Home</string>
+    <string name="drawer_categories">Catergories</string>
+    <string name="drawer_favorite">Favorite</string>
+    <string name="drawer_help">Help</string>
+    <string name="drawer_logout">Logout</string>
+    <string name="openDrawer">Opened</string>
+    <string name="closeDrawer">Closed</string>
+
+    <string name="main_new_products">New Products</string>
+    <string name="main_clothing">Clothing</string>
+    <string name="main_shoes">Shoes</string>
+    <string name="main_watches">Watches</string>
+    <string name="main_electronics">Electronics</string>
+
+    <string-array name="array_name">
+        <item>Array Item One</item>
+        <item>Array Item Two</item>
+        <item>Array Item Three</item>
+    </string-array>
+
+    <string name="API_Login">http://yasser.dcetest.com/graduationproject/public/api/login</string>
+    <string name="API_Products">http://yasser.dcetest.com/graduationproject/public/api/home?api_token=</string>
+    <string name="API_Logout">http://yasser.dcetest.com/graduationproject/public/api/logout?api_token=</string>
+    <string name="API_CUSTOMER_IMAGE">http://yasser.dcetest.com/graduationproject/public/uploads/customers/</string>
+    <string name="API_PRODUCT_IMAGE">http://yasser.dcetest.com/graduationproject/public/uploads/products/</string>
+    <string name="API_CATEGORY">http://yasser.dcetest.com/graduationproject/public/api/category/</string>
+    <string name="API_RELATED">http://yasser.dcetest.com/graduationproject/public/api/product/</string>
+    <string name="related_products">Related Products</string>
+    <string name="API_RATE" ></string>
+    <string name="API_WISHLIST">http://yasser.dcetest.com/graduationproject/public/api/wishList</string>
+    <string name="API_WISH_ADD">http://yasser.dcetest.com/graduationproject/public/api/wishList/addWish/</string>
+    <string name="main_menu_favorite">Favorite</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0f64d2</color>
+    <color name="colorPrimaryDark">#262728</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_grey">#262728</color>
+    <color name="foreground_yellow_dark">#D9fdd922</color>
+    <color name="foreground_yellow_light">#CCfdd922</color>
+    <color name="foreground_white">#4Df5f5f5</color>
+    <color name="foreground_white_light">#90eeeeee</color>
+    <color name="rating_bar_half_colored">#D9eeeeee</color>
+    <color name="blue_dark">#0f6cb2</color>
+    <color name="blue_light">#0f64d2</color>
+    <color name="normal_white">#ffffff</color>
+    <color name="product_item_yellow">#fbc02d</color>
+    <color name="product_item_grey">#5Daaaaaa</color>
+    <color name="price_red">#f44336</color>
+    <color name="sec_color_grey">#696969</color>
+    <color name="main_product_grey">#F2aaaaaa</color>
+
+</resources>

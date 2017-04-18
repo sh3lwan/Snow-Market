@@ -1,0 +1,96 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="android:colorAccent">@color/foreground_yellow</item>-->
+
+    </style>
+
+
+    <style name="secondTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextTheme">
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <!--<item name="android:textColorPrimary">@color/foreground_yellow</item>-->
+        <item name="android:textColor">@color/foreground_white</item>
+        <!--<item name="android:textColorSecondary">@color/seconderyTextColor</item>-->
+        <item name="colorControlNormal">@color/foreground_white</item>
+        <item name="colorControlActivated">@color/foreground_yellow_light</item>
+        <item name="colorControlHighlight">@color/foreground_white</item>
+        <item name="android:textColorHint">@color/foreground_white_light</item>
+    </style>
+
+    <style name="RatingBar" parent="android:style/Widget.Material.RatingBar.Small">
+        <item name="colorControlNormal">@color/product_item_yellow</item>
+        <item name="colorControlActivated">@color/product_item_grey</item>
+    </style>
+
+    <style name="spinner_style">
+        <!--<item name="android:layout_marginLeft">6dp</item>-->
+        <!--<item name="android:layout_marginRight">6dp</item>-->
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <!--<item name="android:background">@drawable/gradient_spinner</item>-->
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:spinnerMode">dropdown</item>
+        <!--<item name="android:layout_marginTop">3dp</item>-->
+        <!--<item name="android:paddingLeft">8dp</item>-->
+        <!--<item name="android:paddingRight">20dp</item>-->
+        <!--<item name="android:paddingTop">8dp</item>-->
+        <!--<item name="android:paddingBottom">8dp</item>-->
+        <!--<item name="android:popupBackground">@color/white_spinner</item>-->
+        <item name="android:dropDownVerticalOffset">52dp</item>
+        <item name="android:popupMenuStyle">@drawable/gradient_spinner</item>
+    </style>
+
+
+    <style name="ratingBar_style" parent="@android:style/Widget.Material.RatingBar.Small">
+        <item name="android:numStars">5</item>
+        <item name="android:rating">4.5</item>
+        <item name="android:stepSize">0.5</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">44dip</item>
+        <item name="android:layout_marginLeft">4dip</item>
+        <item name="android:layout_marginTop">4dip</item>
+    </style>
+
+    <!--<style name="hotel_rating_bar" parent="@android:style/Widget.RatingBar">-->
+    <!--<item name="android:numStars">6</item>-->
+    <!--<item name="android:rating">4.5</item>-->
+    <!--<item name="android:stepSize">0.5</item>-->
+    <!--<item name="android:layout_width">wrap_content</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:paddingBottom">44dip</item>-->
+    <!--<item name="android:layout_marginLeft">4dip</item>-->
+    <!--<item name="android:layout_marginTop">4dip</item>-->
+    <!--</style>-->
+
+    <!--<style name="hotel_rating_bar_small" parent="@android:style/Widget.Material.RatingBar.Small">-->
+    <!--<item name="android:numStars">5</item>-->
+    <!--<item name="android:rating">4.5</item>-->
+    <!--<item name="colorControlNormal">@color/product_item_yellow</item>-->
+    <!--<item name="colorControlActivated">@color/product_item_grey</item>-->
+    <!--<item name="android:stepSize">0.5</item>-->
+    <!--<item name="android:layout_width">wrap_content</item>-->
+    <!--<item name="android:layout_height">wrap_content</item>-->
+    <!--<item name="android:paddingBottom">44dip</item>-->
+    <!--<item name="android:layout_marginLeft">4dip</item>-->
+    <!--<item name="android:layout_marginTop">4dip</item>-->
+    <!--<item name="android:isIndicator">true</item>-->
+    <!--<item name="minHeight">12dp</item>-->
+    <!--<item name="maxHeight">12dp</item>-->
+    <!--</style>-->
+
+</resources>

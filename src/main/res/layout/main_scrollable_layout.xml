@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="@string/main_new_products"
+        android:textColor="@color/normal_white"
+        android:textSize="@dimen/main_new_text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_new_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/main_clothing"
+        android:textColor="@color/normal_white"
+        android:textSize="@dimen/main_new_text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/clothing_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/main_shoes"
+        android:textColor="@color/normal_white"
+        android:textSize="@dimen/main_new_text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/shoes_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/main_watches"
+        android:textColor="@color/normal_white"
+        android:textSize="@dimen/main_new_text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/watches_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="@string/main_electronics"
+        android:textColor="@color/normal_white"
+        android:textSize="@dimen/main_new_text_size"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/electronics_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

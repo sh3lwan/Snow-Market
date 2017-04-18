@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="sh3lwan.graduation.LoginActivity">
+
+    <ImageView
+        android:id="@+id/login_background_iv"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:elevation="16dp"
+        android:src="@drawable/login_background" />
+
+    <ImageView
+        android:id="@+id/login_logo_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/snow_logo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login_background_iv"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/EditTextTheme">
+
+            <EditText
+                android:id="@+id/login_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username_email_hint"
+                android:padding="16dp"
+                android:text="vip_yassir@hotmail.com"
+                android:textColor="@color/foreground_white_light" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:theme="@style/EditTextTheme">
+
+            <EditText
+                android:id="@+id/login_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password_hint"
+                android:text="awadawad"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="@color/foreground_white_light" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/forget_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="16dp"
+            android:clickable="true"
+            android:text="@string/forget_password"
+            android:textColor="@color/foreground_white_light"
+            android:textSize="@dimen/forget_pass_texsize" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="@string/no_account_sign_up"
+        android:textColor="@color/foreground_white_light" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_alignStart="@+id/login_logo_iv"
+        android:layout_below="@+id/linearLayout"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/yellow_rounded_button"
+        android:elevation="32dp"
+        android:padding="8dp"
+        android:text="@string/login_button_text" />
+
+
+</RelativeLayout>

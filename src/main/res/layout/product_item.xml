@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_grey"
+    android:layoutDirection="ltr"
+    android:paddingBottom="3dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/product_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="2dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/product_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="4dp"
+        android:layout_toRightOf="@id/product_item_image"
+        android:text="Product Name"
+        android:textSize="@dimen/product_item_textsize"
+        android:textColor="@color/normal_white" />
+
+    <RatingBar
+        android:id="@+id/product_item_ratingBar"
+        style="?android:ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_item_name"
+        android:layout_marginLeft="9dp"
+        android:paddingBottom="4dp"
+        android:layout_toRightOf="@id/product_item_image"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/rating_bar_half_colored"
+        android:progressTint="@color/product_item_yellow"
+        android:secondaryProgressTint="@color/foreground_white"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:id="@+id/product_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_item_ratingBar"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/product_item_textsize"
+        android:layout_toRightOf="@id/product_item_image"
+        android:text="$400.00"
+        android:textColor="@color/price_red" />
+
+    <TextView
+        android:id="@+id/product_item_sec_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/product_item_ratingBar"
+        android:layout_marginLeft="8dp"
+
+        android:layout_toRightOf="@id/product_item_price"
+        android:text="$500.00"
+        android:textColor="@color/sec_color_grey" />
+
+    <ImageView
+        android:id="@+id/product_item_side_arrow"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="16dp"
+        android:src="@drawable/arrow_right" />
+</RelativeLayout>
